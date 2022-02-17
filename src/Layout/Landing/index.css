@@ -1,0 +1,137 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(80, 31, 193);
+  background: linear-gradient(
+    130deg,
+    rgba(80, 31, 193, 1) 0%,
+    rgba(195, 70, 213, 1) 100%
+  );
+}
+.navBar {
+  width: 100vw;
+  position: relative;
+}
+
+.logo {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.envited {
+  margin-left: 1rem;
+  margin-top: 0.5vh;
+  margin-bottom: 0.8vh;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 30px;
+  height: 2rem;
+  width: 5rem;
+  background: linear-gradient(
+    308deg,
+    rgba(80, 31, 193, 1) 0%,
+    rgba(195, 70, 213, 1) 100%
+  );
+  color: white;
+  font-weight: bold;
+}
+
+.Facebook {
+  position: absolute;
+  margin: auto;
+  left: 80px;
+  top: 100px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 94% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #ffffff;
+}
+
+.Line {
+  position: absolute;
+  width: 295px;
+  height: 40px;
+  left: 50px;
+  top: 200px;
+
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #ffffff;
+}
+
+.Event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 6rem;
+  top: 20rem;
+  border-radius: 30px;
+  height: 3rem;
+  width: 12rem;
+  background: rgb(6, 214, 160);
+  background: linear-gradient(
+    128deg,
+    rgba(6, 214, 160, 1) 0%,
+    rgba(51, 170, 255, 1) 100%
+  );
+  color: white;
+  font-weight: bold;
+}
+
+.imagess {
+  position: absolute;
+  bottom: 65px;
+  left: 22px;
+}
+
+.left {
+  width: 96px;
+  height: 171px;
+  left: 16px;
+  top: 498px;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.middle {
+  width: 136px;
+  height: 242px;
+  left: 119px;
+  top: 560px;
+  box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.right {
+  width: 96px;
+  height: 171px;
+  left: 262px;
+  top: 598px;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
